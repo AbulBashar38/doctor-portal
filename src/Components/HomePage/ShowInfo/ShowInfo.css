@@ -1,0 +1,12 @@
+.info-item{
+    padding: 30px;
+    
+}
+.bgColor-primary{
+    background-color: #1cc7c1;
+    color: white;
+}
+.bgColor-dark{
+    background-color: #3a4256;
+    color: white;
+}
