@@ -1,4 +1,5 @@
 import React from 'react';
+import FeatureServices from '../FeatureServices/FeatureServices';
 import Home from '../Home/Home';
 import Services from '../Services/Services';
 
@@ -7,6 +8,8 @@ const FullHomePage = () => {
         <div>
             <Home></Home>
             <Services></Services>
+            
+            <FeatureServices></FeatureServices>
         </div>
     );
 };
