@@ -27,7 +27,7 @@ const HomeInfo = () => {
         <section className='d-flex justify-content-center'>
             <div className='row w-75'>
                 {
-                    infoData.map(info => <ShowInfo info={info}></ShowInfo>)
+                    infoData.map(info => <ShowInfo info={info} key={info.title}></ShowInfo>)
                 }
             </div>
         </section>
