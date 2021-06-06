@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../Shared/Footer/Footer';
 import Appointment from '../Appointment/Appointment';
 import Blog from '../Blog/Blog';
 import Contact from '../Contact/Contact';
@@ -19,6 +20,7 @@ const FullHomePage = () => {
              <Blog></Blog>
              <Doctors></Doctors>
              <Contact></Contact>
+             <Footer></Footer>
         </div>
     );
 };
