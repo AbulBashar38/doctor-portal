@@ -5,6 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Appointment from "./Components/AppointmentPage/Appointment/Appointment";
 function App() {
   return (
     <Router>
@@ -12,8 +13,11 @@ function App() {
         <Route path='/home'>
           <FullHomePage></FullHomePage>
         </Route>
-        <Route path='/'>
+        <Route exact path='/'>
           <FullHomePage></FullHomePage>
+        </Route>
+        <Route path='/appointment'>
+          <Appointment></Appointment>
         </Route>
       </Switch>
     </Router>
