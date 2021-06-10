@@ -2,6 +2,7 @@ import React from 'react';
 import appointDoctor from '../../../images/5790-removebg.png'
 import './Appoinment.css'
 const Appointment = () => {
+    
     return (
         <section className='appointment'>
             <div className='container'>

@@ -48,7 +48,6 @@ const bookingData = [
 ]
 
 const BookAppointment = ({ selectedDate }) => {
-    console.log(selectedDate);
     return (
         <section className='pt-5 mt-5'>
             <h1 className='text-brand text-center mb-5'>Available Appointments on {selectedDate.toDateString()}</h1>

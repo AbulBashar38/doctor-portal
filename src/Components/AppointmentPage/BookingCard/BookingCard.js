@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import AppointmentModal from '../Appointment/AppoinmentModal/AppointmentModal';
+import AppointmentModal from '../AppoinmentModal/AppointmentModal';
 
 const BookingCard = (props) => {
     const { subject, visitingHour, totalSpace} = props.bookData

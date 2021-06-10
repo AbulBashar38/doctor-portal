@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css'
-const Header = () => {
+const Header = (props) => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container-fluid">
@@ -19,13 +19,13 @@ const Header = () => {
                             <a className="nav-link ms-5" href="#">Dental Services</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link ms-5 text-white" href="#">Reviews</a>
+                            <a style={{color:`${props.children}`}} className="nav-link ms-5" href="#">Reviews</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link ms-5 text-white" href="#">Blogs</a>
+                            <a style={{color:`${props.children}`}} className="nav-link ms-5" href="#">Blogs</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link ms-5 text-white" href="#">Contact Us</a>
+                            <a style={{color:`${props.children}`}} className="nav-link ms-5" href="#">Contact Us</a>
                         </li>
                     </ul>
                 </div>
